@@ -41,7 +41,7 @@ The dataset used is sourced from Kaggle and includes various features related to
 
 
 4. **Model Training & Evaluation**:
-   - Train multiple models:
+   - Train multiple models using a **Pipeline**:
      - Linear Regression
      - Lasso (L1)
      - Ridge (L2)
@@ -103,10 +103,10 @@ To start using this project, follow the steps below:
     jupyter-notebook
     ```
 
-> **IMPORTANT**
+>[!IMPORTANT]
 >
 > For reverse geocoding, the [LocationIQ](https://locationiq.com) API is used. If you wish to perform reverse geocoding, sign up [here](https://my.locationiq.com/register) and replace the placeholder with your token:
-> ```python
+> ```
 > key = "YOUR_LOCATIONIQ_API_KEY"
 > ```
 >
